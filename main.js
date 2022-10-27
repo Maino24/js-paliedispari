@@ -13,6 +13,7 @@ i = 0;
 parolaDivisa = parolaInput.split(``)
 console.log(parolaDivisa)
 
+//con la funzione reverse "giro al contrario" la parola
 parolaDivisa = parolaDivisa.reverse();
 console.log(``)
 

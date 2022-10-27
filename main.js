@@ -17,5 +17,6 @@ console.log(parolaDivisa)
 parolaDivisa = parolaDivisa.reverse();
 console.log(``)
 
+//con la funzione join creo la parola al contrario 
 parolaContrario = parolaDivisa.join(``);
 console.log(parolaContrario);

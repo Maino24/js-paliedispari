@@ -35,3 +35,20 @@ if(parolaContrario !== parolaInput){
 
 
 }
+
+
+
+
+
+//ALTRO MODO
+
+let parolaInput = prompt(`inserisci una parola`);
+let parolaContrario = ``;
+
+for( let i = parolaInput.length - 1 ; i >= 0; i--){
+
+    //console.log( parolaInput[i] );
+    
+}
+
+parolaContrario += parolaInput[i]

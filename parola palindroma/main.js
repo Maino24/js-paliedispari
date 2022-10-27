@@ -42,22 +42,18 @@ if(parolaContrario !== parolaInput){
 
 //ALTRO MODO
 
-
-
-
-//if(parolaContrario !== parolaInput){
-        
- //   console.log(`è diversa`)
-//}else{
- //   console.log(`palindroma`)
-//}
-
 let parolaInput = prompt(`inserisci una parola`);
 let parolaContrario = ``;
 
 
 function controllo(parolaContrario, parolaInput){
 
+    for( let i = parolaInput.length - 1 ; i >= 0; i--){
+
+        //console.log( parolaInput[i] );
+        parolaContrario += parolaInput[i]
+        
+    }
     
     if(parolaContrario !== parolaInput){
         
@@ -76,11 +72,6 @@ function controllo(parolaContrario, parolaInput){
 
 
 
-for( let i = parolaInput.length - 1 ; i >= 0; i--){
 
-    //console.log( parolaInput[i] );
-    parolaContrario += parolaInput[i]
-    
-}
 
 controllo(parolaContrario, parolaInput)

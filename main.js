@@ -26,9 +26,12 @@ console.log(parolaContrario);
 if(parolaContrario !== parolaInput){
 
     console.log(`la parola non è palindroma`)
+    document.getElementById(`output`).innerHTML= `La parola` `${parolaInput}`  `non è palindroma`
 
 }else{
 
     console.log(`la parola è palindroma`)
+    document.getElementById(`output`).innerHTML= `La parola` `${parolaInput}` `è palindroma`
+
 
 }

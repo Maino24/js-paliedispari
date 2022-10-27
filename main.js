@@ -20,3 +20,15 @@ console.log(``)
 //con la funzione join creo la parola al contrario 
 parolaContrario = parolaDivisa.join(``);
 console.log(parolaContrario);
+
+
+//creo la condizione che controlla se la parola è palindroma
+if(parolaContrario !== parolaInput){
+
+    console.log(`la parola non è palindroma`)
+
+}else{
+
+    console.log(`la parola è palindroma`)
+
+}

@@ -62,8 +62,12 @@ function controllo(parolaContrario, parolaInput){
     if(parolaContrario !== parolaInput){
         
         console.log(`è diversa`)
+        document.getElementById(`output`).innerHTML= `La parola non è palindroma`
+
         }else{
         console.log(`palindroma`)
+        document.getElementById(`output`).innerHTML= `La parola è palindroma`
+
         }
 
 

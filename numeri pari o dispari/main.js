@@ -5,9 +5,9 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.*/
 
-let sceltaParola = prompt(`scrivi la parola pari o dispari`)
+let sceltaParola = prompt(`scrivi la parola pari o dispari`);
 let numeroInput = parseInt(prompt(`inserisci un numero compreso tra 1 e 5`));
-let somma = 0
+
 console.log(numeroInput)
 
 //genero un numero random attraverso una funzione

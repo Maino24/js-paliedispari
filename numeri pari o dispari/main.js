@@ -5,24 +5,31 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.*/
 
+let sceltaParola = prompt(`scrivi la parola pari o dispari`)
 let numeroInput = parseInt(prompt(`inserisci un numero compreso tra 1 e 5`));
 let somma = 0
 console.log(numeroInput)
 
 //genero un numero random attraverso una funzione
-function random (){
-    numeroRandom = Math.floor(Math.random() * 5) + 1
-    somma = somma + numeroRandom
-    console.log(numeroRandom)
+function random (max){
+    let numeroRandom = Math.floor(Math.random() * max) + 1
+    return numeroRandom
+    
 
 }
 
-random()
+let numRad = random(5)
+console.log(numRad)
 
-//sommo numero utente e numero random
-sommaTot = numeroInput + somma
-console.log(sommaTot)
+//funzione sommo numero utente e numero random
 
+function somma(x, y){
+    let somma = x + y;
+    return somma;
+}
+
+let sommaFunzione = somma(numeroInput, numRad)
+console.log(sommaFunzione)
 
 function pariDispari(){
 

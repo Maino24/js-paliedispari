@@ -32,14 +32,19 @@ let sommaFunzione = somma(numeroInput, numRad)
 console.log(sommaFunzione)
 
 function pariDispari(){
+    let controllo = ``
 
-    if(sommaTot % 2 !== 0){
-        console.log(`è dispari`)
+    if(sommaFunzione % 2 === 0){
+        controllo = `pari`
+        return controllo
     }else{
-        console.log(`è pari`)
+        controllo = `dispari`
+        return controllo
     }
-
 }
 
+if ( sceltaParola === pariDispari()){
+    document.getElementById(`output`).innerHTML= `l'utente ha vinto`
+}else{
 
-pariDispari()
+}
